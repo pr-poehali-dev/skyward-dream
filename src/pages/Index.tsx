@@ -219,11 +219,13 @@ export default function Index() {
           onClick={() => scrollToSection(0)}
           className="flex items-center gap-2 transition-transform hover:scale-105"
         >
-          <img
-            src="https://cdn.poehali.dev/projects/d8a2aa4c-d59b-46ec-aea3-373e8493659f/bucket/ea20b4cd-4efb-4327-bc82-16c6432ead18.png"
-            alt="СарПартнёр"
-            className="h-10 w-auto object-contain drop-shadow-lg"
-          />
+          <div className="flex h-10 items-center overflow-hidden rounded-lg bg-black/40 px-3 backdrop-blur-md transition-all duration-300 hover:bg-black/55">
+            <img
+              src="https://cdn.poehali.dev/projects/d8a2aa4c-d59b-46ec-aea3-373e8493659f/bucket/ea20b4cd-4efb-4327-bc82-16c6432ead18.png"
+              alt="СарПартнёр"
+              className="h-7 w-auto object-contain brightness-110"
+            />
+          </div>
         </button>
 
         <div className="hidden items-center gap-8 md:flex">
