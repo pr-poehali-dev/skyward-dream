@@ -223,7 +223,7 @@ export default function Index() {
             <img
               src="https://cdn.poehali.dev/projects/d8a2aa4c-d59b-46ec-aea3-373e8493659f/bucket/ea20b4cd-4efb-4327-bc82-16c6432ead18.png"
               alt="СарПартнёр"
-              className="h-7 w-auto object-contain brightness-110"
+              className="h-7 w-auto object-contain brightness-110 rounded-sm"
             />
           </div>
         </button>
