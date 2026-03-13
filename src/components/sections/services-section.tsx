@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы делаем</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Проектирование",
+              description: "Разработка проектной документации для систем безопасности с учётом требований ГОСТ и нормативов",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Монтаж и установка",
+              description: "Профессиональный монтаж оборудования видеонаблюдения, ОПС, СКУД и систем оповещения",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Обслуживание",
+              description: "Регулярное техническое обслуживание и оперативный ремонт установленных систем",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Поставка оборудования",
+              description: "Подбор и поставка сертифицированного оборудования от ведущих производителей",
               direction: "bottom",
             },
           ].map((service, i) => (
